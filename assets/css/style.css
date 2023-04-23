@@ -160,28 +160,69 @@ a:visited {
   #computer-choice {
     width: 300px;
     height: 300px;
-    background-color: #e044ff;
+    background-color: rgba(0, 0, 0, 0.5);
     margin-top: 10px;
   }
 
   #user-choice {
     width: 300px;
     height: 300px;
-    background-color: aqua;
+    background-color: rgba(0, 0, 0, 0.5);
     margin-top: 10px;
   }
 
   #your-choices {
-    width: 300px;
+    width: 450px;
     height: 60px;
-    background-color: green;
     margin: 0 auto;
     margin-top: 10px;
   }
 
   #your-choices img{
+    z-index: 1;
+    margin-left: 20px;
     width: 60px;
     height: 60px;
+  }
+
+  #rock {
+    background-color: blue;
+     box-shadow:
+     0 0 10px 2px #48a6ff,
+     0 0 80px 10px rgb(0, 162, 255), 
+     0 0 10px 0px rgb(0, 26, 255)
+  }
+
+  #paper {
+    background-color: rgb(180, 180, 0);
+    box-shadow:
+     0 0 10px 2px #fff599,
+     0 0 80px 10px rgb(255, 237, 71), 
+     0 0 10px 0px rgb(229, 255, 0)
+  }
+
+  #scissors {
+    background-color: rgb(180, 117, 0);
+    box-shadow:
+     0 0 10px 2px #ffbc6e,
+     0 0 80px 10px rgb(255, 157, 45), 
+     0 0 10px 0px rgb(255, 166, 0)
+  }
+
+  #lizard {
+    background-color: green;
+    box-shadow:
+     0 0 10px 2px #bdff67,
+     0 0 80px 10px rgb(141, 255, 48), 
+     0 0 10px 0px rgb(9, 255, 0)
+  }
+
+  #spock {
+    background-color: rgb(148, 0, 0);
+    box-shadow:
+     0 0 10px 2px #ff798f,
+     0 0 80px 10px rgb(255, 51, 119), 
+     0 0 10px 0px rgb(255, 0, 55)
   }
 
   #your-score {
