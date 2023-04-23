@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Pixels&family=Saira:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Roboto&display=swap');
+@import url(//fonts.googleapis.com/css?family=Vibur);
+
+
+
+body {
+    font-family: "Bruno Ace", "Robot";
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+.background-image {
+  background: url(../images/stockvault-artificial-intelligence-bright-brain257179.opacity.jpg)center center;
+  position:relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+} 
+
+body h1 {
+    font-family: "Bruno Ace", "Robot";
+    position:absolute;
+    color: white;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    top: 300px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+/* Animation, neon light in the heading line */
+
+.logo b{
+    font: 400 19vh;
+    color: #fee;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #e044ff, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+  }
+  .logo b span{
+    animation: blink linear infinite 2s;
+  }
+  .logo b span:nth-of-type(2){
+    animation: blink linear infinite 3s;
+  }
+  @keyframes blink {
+    78% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    79%{
+       color: #333;
+    }
+    80% {
+      text-shadow: none;
+    }
+    81% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    82% {
+      color: #333;
+      text-shadow: none;
+    }
+    83% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    92% {
+      color: #333;
+      text-shadow: none;
+    }
+    92.5% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+  }
+
+/* start game sign with zoom effects */
+
+.startgame {
+    font-family: "Bruno Ace", "Robot";
+    position:absolute;
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    top: 630px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+.startgame:hover {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    padding: 10px;
+    letter-spacing: 2px;
+    transition: all .25s;
+  }
+
+  /* game page */
+
+  #heading-game {
+    font-family: "Bruno Ace", "Robot";
+    position:absolute;
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    top: 20px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+.restartgame {
+    font-family: "Bruno Ace", "Robot";
+    position:absolute;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    top: 150px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+  
+  .restartgame:hover {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    padding: 10px;
+    letter-spacing: 2px;
+    transition: all .25s;
+  }
+
+#gameboard {
+    position: relative;
+    top: 200px;
+}
+
+  #computer-choice {
+    width: 300px;
+    height: 240px;
+    background-color: #e044ff;
+    margin-top: 10px;
+  }
+
+  #user-choice {
+    width: 300px;
+    height: 240px;
+    background-color: aqua;
+    margin-top: 10px;
+  }
+
+  #your-choices {
+    width: 300px;
+    height: 60px;
+    background-color: green;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  #your-choices img{
+    width: 60px;
+    height: 60px;
+  }

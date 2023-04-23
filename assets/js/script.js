@@ -1,33 +1,15 @@
-const computerChoiceDisplay = document.getElementById('computer-choice')
-const userChoiceDisplay = document.getElementById('user-choice')
-const resultDisplay = document.getElementById('result')
-const possibleChoices = document.querySelectorAll('button')
-let userChoice
-let computerChoice
+var user;
+var yourScore = 0;
+var computer;
+var computerScore = 0;
 
-possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
-    userChoice = e.target.id
-    userChoiceDisplay.innerHTML = userChoice
-    generateComputerChoice()
-}))
+var choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
 
-function generateComputerChoice() {
-    const randomNum = Math.floor(Math.random() * 5) + 1
-    
-    if (randomNum === 1) {
-        computerChoice = 'rock'
+window.onload = function() {
+    for (let i = 0; i < 5; i++) {
+        let choice = document.createElement('img');
+        choice.id = choices[i]
+        choice.src = choices[i] + '.png';
+        document.getElementById('your-choices').append(choice);
     }
-    if (randomNum === 2) {
-        computerChoice = 'scissors'
-    }
-    if (randomNum === 3) {
-        computerChoice = 'paper'
-    }
-    if (randomNum === 4) {
-        computerChoice = 'lizard'
-    }
-    if (randomNum === 5) {
-        computerChoice = 'spock'
-    }
-    computerChoiceDisplay.innerHTML = computerChoice
 }
