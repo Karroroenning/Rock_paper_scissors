@@ -15,11 +15,13 @@ window.onload = function() {
         var choice = document.createElement('img');
         choice.id = choices[i];
         choice.src = choices[i] + '.png';
+        choices[i].alt="user choises";
         choice.addEventListener('click', selectChoice);
         document.getElementById('your-choices').append(choice);
     }
 };
-    function selectChoice() {
+
+function selectChoice() {
         user = this.id;
         document.getElementById('user-choice').src = user + '.png';
    
