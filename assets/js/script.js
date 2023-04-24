@@ -3,22 +3,22 @@ var yourScore = 0;
 var computer;
 var computerScore = 0;
 
-const resultDisplay = document.getElementById('result')
-let result
+var resultDisplay = document.getElementById('result');
+var result;
 
 var choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
 
 // Choose the choice img
 
 window.onload = function() {
-    for (let i = 0; i < 5; i++) {
-        let choice = document.createElement('img');
-        choice.id = choices[i]
+    for (var i = 0; i < 5; i++) {
+        var choice = document.createElement('img');
+        choice.id = choices[i];
         choice.src = choices[i] + '.png';
         choice.addEventListener('click', selectChoice);
         document.getElementById('your-choices').append(choice);
     }
-}
+};
     function selectChoice() {
         user = this.id;
         document.getElementById('user-choice').src = user + '.png';
@@ -40,19 +40,19 @@ window.onload = function() {
          if (user === 'scissors') {
             if (computer === 'paper') {
                 yourScore +=1;
-                result = 'You win! Scissors cuts paper'
+                result = 'You win! Scissors cuts paper';
             }
             else if (computer === 'rock') {
                 computerScore += 1;
-                result = 'You lost! Rock crushes scissors'
+                result = 'You lost! Rock crushes scissors';
             }
             else if (computer === 'lizard') {
                 yourScore += 1;
-                result = 'You Win! Scissors decapitates lizard'
+                result = 'You Win! Scissors decapitates lizard';
             }
             else if (computer === 'spock') {
                 computerScore += 1;
-                result = 'You lost! spock smashes scissors'
+                result = 'You lost! spock smashes scissors';
             }
         }
     else 
@@ -60,38 +60,38 @@ window.onload = function() {
         if (user === 'rock') {
             if (computer === 'lizard') {
             yourScore +=1;
-            result = 'You win! Rock cruches lizard'
+            result = 'You win! Rock cruches lizard';
             }
             else if (computer === 'spock') {
             computerScore += 1;
-            result = 'You lost! Spock vaporizes rock'
+            result = 'You lost! Spock vaporizes rock';
             }
          else if (computer === 'scissors') {
             yourScore += 1;
-            result = 'You Win! Rock crushes scissors'
+            result = 'You Win! Rock crushes scissors';
         }
         else if (computer === 'paper') {
             computerScore += 1;
-            result = 'You lost! Paper covers rock'
+            result = 'You lost! Paper covers rock';
         }
     }
     // user choose paper
     if (user === 'paper') {
         if (computer === 'scissors') {
             computerScore +=1;
-            result = 'You lost! Scissors cuts paper'
+            result = 'You lost! Scissors cuts paper';
         }
         else if (computer === 'rock') {
             yourScore += 1;
-            result = 'You win! Paper covers rock'
+            result = 'You win! Paper covers rock';
         }
         else if (computer === 'lizard') {
             computerScore += 1;
-            result = 'You lost! Lizard eats paper'
+            result = 'You lost! Lizard eats paper';
         }
         else if (computer === 'spock') {
             yourScore += 1;
-            result = 'You Win! Paper disproves spock'
+            result = 'You Win! Paper disproves spock';
         }
     }
 else 
@@ -99,19 +99,19 @@ else
     if (user === 'lizard'){
         if (computer === 'paper') {
         yourScore +=1;
-        result = 'You win! Lizard eats paper'
+        result = 'You win! Lizard eats paper';
         }
         else if (computer === 'rock') {
         computerScore += 1;
-        result = 'You lost! Rock crushes lizard'
+        result = 'You lost! Rock crushes lizard';
         }
      else if (computer === 'spock') {
         yourScore += 1;
-        result = 'You Win! Lizard poisons spock'
+        result = 'You Win! Lizard poisons spock';
     }
     else if (computer === 'scissors') {
         computerScore += 1;
-        result = 'You lost! scissors decapitates lizard'
+        result = 'You lost! scissors decapitates lizard';
     }
 }
 else 
@@ -119,19 +119,19 @@ else
     if (user === 'spock'){
         if (computer === 'scissors') {
         yourScore +=1;
-        result = 'You win! Spock smashes scissors'
+        result = 'You win! Spock smashes scissors';
         }
         else if (computer === 'rock') {
         yourScore += 1;
-        result = 'You win! Spock vaporizes rock'
+        result = 'You win! Spock vaporizes rock';
         }
      else if (computer === 'lizard') {
         computerScore += 1;
-        result = 'You lost! Lizard poisons spock'
+        result = 'You lost! Lizard poisons spock';
     }
     else if (computer === 'paper') {
         computerScore += 1;
-        result = 'You lost! paper disproves spock'
+        result = 'You lost! paper disproves spock';
     }
 }
     
@@ -140,5 +140,5 @@ else
 document.getElementById('your-score').innerHTML = yourScore;
 document.getElementById('computer-score').innerHTML = computerScore;
 
-resultDisplay.innerHTML = result
+resultDisplay.innerHTML = result;
 }
