@@ -40,13 +40,13 @@ body h1 {
     color: #fee;
     text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #e044ff, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
   }
-  .logo b span{
+.logo b span{
     animation: blink linear infinite 2s;
   }
-  .logo b span:nth-of-type(2){
+.logo b span:nth-of-type(2){
     animation: blink linear infinite 3s;
   }
-  @keyframes blink {
+@keyframes blink {
     78% {
       color: inherit;
       text-shadow: inherit;
@@ -104,9 +104,9 @@ body h1 {
     transition: all .25s;
   }
 
-  /* game page */
+/* game page */
 
-  #heading-game {
+#heading-game {
     font-family: "Bruno Ace", "Robot";
     position:absolute;
     color: white;
@@ -141,7 +141,7 @@ a:visited {
     text-decoration: none;
 }
   
-  .restartgame:hover {
+.restartgame:hover {
     display: block;
     text-decoration: none;
     color: #333;
@@ -157,35 +157,39 @@ a:visited {
     top: 200px;
 }
 
-  #computer-choice {
-    width: 300px;
-    height: 300px;
-    background-color: rgba(0, 0, 0, 0.5);
-    margin-top: 10px;
+#computer-choice {
+  position: absolute;
+  top: 180px;
+  transform: translate(-120%, -50%);
+  width: 300px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
   }
 
-  #user-choice {
+#user-choice {
+    position: relative;
+    top: 12px;
     width: 300px;
     height: 300px;
+    left: 215px;
     background-color: rgba(0, 0, 0, 0.5);
-    margin-top: 10px;
   }
 
-  #your-choices {
+#your-choices {
     width: 450px;
     height: 60px;
     margin: 0 auto;
     margin-top: 10px;
   }
 
-  #your-choices img{
+#your-choices img{
     z-index: 1;
     margin-left: 20px;
     width: 60px;
     height: 60px;
   }
 
-  #rock {
+#rock {
     background-color: blue;
      box-shadow:
      0 0 10px 2px #48a6ff,
@@ -193,7 +197,7 @@ a:visited {
      0 0 10px 0px rgb(0, 26, 255)
   }
 
-  #paper {
+#paper {
     background-color: rgb(180, 180, 0);
     box-shadow:
      0 0 10px 2px #fff599,
@@ -201,7 +205,7 @@ a:visited {
      0 0 10px 0px rgb(229, 255, 0)
   }
 
-  #scissors {
+#scissors {
     background-color: rgb(180, 117, 0);
     box-shadow:
      0 0 10px 2px #ffbc6e,
@@ -209,7 +213,7 @@ a:visited {
      0 0 10px 0px rgb(255, 166, 0)
   }
 
-  #lizard {
+#lizard {
     background-color: green;
     box-shadow:
      0 0 10px 2px #bdff67,
@@ -217,20 +221,23 @@ a:visited {
      0 0 10px 0px rgb(9, 255, 0)
   }
 
-  #spock {
+#spock {
     background-color: rgb(148, 0, 0);
     box-shadow:
      0 0 10px 2px #ff798f,
      0 0 80px 10px rgb(255, 51, 119), 
      0 0 10px 0px rgb(255, 0, 55)
   }
+/* score points */
 
-  #your-score {
-    top: 65vw;
+#your-score {
+    position: absolute;
     font-size: 20px;
+    margin: -19rem 13.5rem
   }
 
-  #computer-score {
-    top: -20px;
+#computer-score {
+    position: absolute;
     font-size: 20px;
+    margin: -19rem -13rem;
   }
