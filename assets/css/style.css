@@ -13,11 +13,11 @@ body {
 }
 
 .background-image {
-  background: url(../images/stockvault-artificial-intelligence-bright-brain257179.opacity.jpg)center center;
-  position:relative;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+    background: url(../images/stockvault-artificial-intelligence-bright-brain257179.opacity.jpg)center center;
+    position:relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 } 
 
 body h1 {
@@ -235,15 +235,21 @@ a:visited {
 /* score points */
 
 #your-score {
-    position: absolute;
     font-size: 20px;
-    margin: -19rem 13.5rem
+}
+
+#your-scoretext {
+    font-size: 20px;
+    margin: -19rem 12.5rem;
+}
+
+#computer-scoretext {
+    font-size: 20px;
+    margin: -19rem -13rem;
 }
 
 #computer-score {
-    position: absolute;
     font-size: 20px;
-    margin: -19rem -13rem;
 }
 
 /* Media queries */
@@ -286,11 +292,11 @@ body h1 {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-#computer-score {
+#computer-scoretext {
     margin: -19rem 0rem;
 }
 
-#your-score {
+#your-scoretext {
     margin: -4.5rem 0rem;
 }
 
@@ -340,9 +346,13 @@ body h1 {
     top: 90px;
 }
 
-#computer-score {
+#computer-scoretext {
     margin: -14.5rem 0rem;
-    font-size: 15px;
+    font-size: 10px;
+}
+
+#computer-score {
+  font-size: 10px;
 }
 
 #computer-choice {
@@ -357,9 +367,13 @@ body h1 {
     height: 130px;
 }
 
-#your-score {
-    font-size: 15px;
+#your-scoretext {
+    font-size: 10px;
     margin: -4.6rem 0rem;
+}
+
+#your-score {
+  font-size: 10px;
 }
 
 #result-h2 {
