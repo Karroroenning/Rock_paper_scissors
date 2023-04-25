@@ -242,13 +242,30 @@ a:visited {
     margin: -19rem -13rem;
   }
 
-  /* Media queries */
+/* Media queries */
 
 /* For medium screen sizes from 800px wide and down */
 
 @media screen and (max-width: 800px) {
 
-  #computer-choice {
+/* index page */
+
+body h1 {
+    font-size: 50px;
+}
+
+.startgame {
+    font-size: 30px;
+    top: 530px;
+}
+
+  /*game page*/
+
+  #heading-game {
+    top: 30px;  
+}
+
+#computer-choice {
     position: relative;
     transform: inherit;
     top: 10px;
@@ -295,5 +312,65 @@ a:visited {
 /* For mobile screen sizes 400px and down */
 
 @media screen and (max-width: 400px) {
+
+/* index page */
+
+body h1 {
+    font-size: 40px;
+    top: 150px;
+}
+
+.startgame {
+    top: 350px;
+}
+
+/*game page */
+
+#heading-game {
+    font-size: 20px;
+    top: 30px;
+}
+
+.restartgame {
+    font-size: 15px;
+    top: 90px;
+}
+
+#computer-score {
+  margin: -14.5rem 0rem;
+  font-size: 15px;
+}
+
+#computer-choice {
+    top: -70px;
+    width: 130px;
+    height: 130px;
+}
+
+#user-choice {
+    top: -50px;
+    width: 130px;
+    height: 130px;
+}
+
+#your-score {
+  font-size: 15px;
+  margin: -4.6rem 0rem;
+}
+
+#result-h2 {
+    top: -4rem;
+    font-size: 14px;
+}
+
+#your-choices img{
+    width: 40px;
+    height: 40px;
+}
+
+#your-choices {
+    margin-top: -3rem;
+    width: 250px;
+}
 
 }
