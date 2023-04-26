@@ -26,21 +26,22 @@ function selectChoice() {
         user = this.id;
         document.getElementById('user-choice').src = user + '.png';
    
+// Random for the computer
 
-    // Random for the computer
     computer = choices[Math.floor(Math.random() * 5)]; 
     document.getElementById('computer-choice').src = computer + '.png';
 
-    // check who wins
+// check who wins
 
-    if (user === computer) {
-        yourScore += 1;
-        computerScore += 1;
-        result = "It's a tie!"
-    }
+if (user === computer) {
+    yourScore += 1;
+    computerScore += 1;
+    result = "It's a tie!"
+}
     
-    else {
+else {
 // user choose scissors
+
     if (user === 'scissors') {
         if (computer === 'paper') {
             yourScore +=1;
@@ -59,8 +60,9 @@ function selectChoice() {
             result = 'You lost! spock smashes scissors';
         }
     }
-    else 
+else 
 // User choose rock
+
     if (user === 'rock') {
         if (computer === 'lizard') {
             yourScore +=1;
@@ -79,8 +81,9 @@ function selectChoice() {
             result = 'You lost! Paper covers rock';
         }
     }   
-    else
+else
 // user choose paper
+
     if (user === 'paper') {
         if (computer === 'scissors') {
             computerScore +=1;
@@ -101,6 +104,7 @@ function selectChoice() {
     }
 else 
 // User choose lizard
+
     if (user === 'lizard') {
         if (computer === 'paper') {
             yourScore +=1;
@@ -118,9 +122,10 @@ else
             computerScore += 1;
             result = 'You lost! scissors decapitates lizard';
         }
-}
+    }
 else 
 // User choose spock
+
     if (user === 'spock') {
         if (computer === user) {
             result = "It's a tie!";
@@ -141,8 +146,7 @@ else
             computerScore += 1;
             result = 'You lost! paper disproves spock';
         }
-}
-    
+    } 
 }
 
 document.getElementById('your-score').innerHTML = yourScore;
