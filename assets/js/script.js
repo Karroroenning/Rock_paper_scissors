@@ -16,6 +16,7 @@ window.onload = function() {
         choice.id = choices[i];
         choice.src = choices[i] + '.png';
         choices[i].alt="user choises";
+        choice.alt = choices[i] + "user choises";
         choice.addEventListener('click', selectChoice);
         document.getElementById('your-choices').append(choice);
     }
