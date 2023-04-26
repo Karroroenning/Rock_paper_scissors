@@ -14,7 +14,7 @@ window.onload = function() {
     for (var i = 0; i < 5; i++) {
         var choice = document.createElement('img');
         choice.id = choices[i];
-        choice.src = choices[i] + '.png';
+        choice.src = "/assets/images/" + choices[i] + '.png';
         choices[i].alt="user choises";
         choice.alt = choices[i] + "user choises";
         choice.addEventListener('click', selectChoice);
