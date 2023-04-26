@@ -15,7 +15,11 @@ If you win or lose, it says next to the result why you lose or win. So it's alwa
 **Header:**
 The first impression is the most important. We have a large and clear header that is centered across the page. The feeling should be a bit like space and being in an arcade.
 
-- I chose to have the dark background and a light header because the contrast is very good. The use of the neon sign feeling will take you back to the arcades you used to be in. 
+- I chose to have the dark background and a light header because the contrast is very good. The use of the neon sign feeling will take you back to the arcades you used to be in. You see in the pictures i inserted here. That the sign is glitching. It gives you more of an arcade feel.
+
+![header image no glitch](/assets/images/header.jpg)
+![header image glitching](/assets/images/header_blinks.jpg)
+
 
 **Start Game:**
 When you hover over the "start game" sign, there is a very subtle zoom that shows it is a clickable link. That takes you to the game page.
