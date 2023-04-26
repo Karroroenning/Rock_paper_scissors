@@ -36,7 +36,7 @@ function selectChoice() {
 if (user === computer) {
     yourScore += 1;
     computerScore += 1;
-    result = "It's a tie!"
+    result = "It's a tie!";
 }
     
 else {
