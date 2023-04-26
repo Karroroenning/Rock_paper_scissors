@@ -24,4 +24,7 @@ The first impression is the most important. We have a large and clear header tha
 **Start Game:**
 When you hover over the "start game" sign, there is a very subtle zoom that shows it is a clickable link. That takes you to the game page.
 
-- Considering that the header takes up a lot of focus on the page, I chose to have the start game a little more discreet so that it doesn't get too messy. There must not be too much happening on the page so that the user gets confused
+- Considering that the header takes up a lot of focus on the page, I chose to have the start game a little more discreet so that it doesn't get too messy. There must not be too much happening on the page so that the user gets confused.
+
+![start game sign](/assets/images/startgame.jpg)
+![start game sign hover](/assets/images/startgame_hover.jpg)
