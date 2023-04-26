@@ -27,4 +27,10 @@ When you hover over the "start game" sign, there is a very subtle zoom that show
 - Considering that the header takes up a lot of focus on the page, I chose to have the start game a little more discreet so that it doesn't get too messy. There must not be too much happening on the page so that the user gets confused.
 
 ![start game sign](/assets/images/startgame.jpg)
+
+Hover:
 ![start game sign hover](/assets/images/startgame_hover.jpg)
+
+## Game page
+
+**Header:**
