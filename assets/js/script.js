@@ -29,9 +29,9 @@ function selectChoice() {
    
 // Random for the computer
 
-computer = choices[Math.floor(Math.random() * 5)]; 
-document.getElementById('computer-choice').src = 'assets/images/' + computer + '.png';
-console.log(document.getElementById('computer-choice').src);
+        computer = choices[Math.floor(Math.random() * 5)]; 
+        document.getElementById('computer-choice').src = 'assets/images/' + computer + '.png';
+        console.log(document.getElementById('computer-choice').src);
 
 // check who wins
 
