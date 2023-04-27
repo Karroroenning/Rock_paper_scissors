@@ -32,14 +32,26 @@ Hover:
 ![start game sign hover](/assets/images/images%20readme/startgame_hover.jpg)
 
 ## Game page
+Here we have the core of the web page. The first thing to look at is the game board. Which is slightly larger than the rest of the pictures on the page. The focus must always be there. A little further down we have the user's game options. There, the user has 5 options to choose from. But choose wisely the computer is smart. But not smarter than you. 
 
 - **Header:**
+The header text is the name of the game. On this page, this text should not be the first thing the user looks at. It should still be the game board. It is discreet and the size is smaller. But when you press it, you get to the first page again.
 
 - **Restart game:**
+The restart game button is a function that should not have too much focus, but it is an important function. If you start to feel sad that you win all the time or want to hand the game over to someone else, you can simply press restart game and the page will be reset.
+
+- Here I want the button to be contiguous with the button on the first page. Same font-family and same hover. So the user understands that it is a button that can be pressed.
 
 - **Gameboard:**
+On the game board we have the game itself. The computer's side on what it chooses and the user's side what the user chooses for options to play with. Depending on who wins, it will get a point.
+
+- I chose to make the playing field a little bigger so that the focus remains on the playing field.
+I have taken the images from google, but I have redone them in photoshop so that it is more consistent with the game.
 
 - **Result:**
+I find this quite interesting. When the game is started and someone wins or loses, it says if you win or lose. But for those who haven't played this before, there will always be a short explanation of what the options do to each other to win.
+
+- 
 
 - **User choices:**
 
