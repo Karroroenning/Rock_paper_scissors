@@ -65,21 +65,32 @@ Five game options that the user can choose from before each game round. But when
 
 - I chose to have five options to make it more exciting. Many have played rock paper scissors, but here two options have been added. The images have the same colors and could then be mixed together. That's why I've put a different color around so that you can tell them apart. I have the neon color to once again get the feeling of an arcade.
 
-## Testing
+## Validator testin
 
-## Bugs
-
-## Validator testing
+- Chrome developer tools was used to find any issues while building the webpage.
 
 **HTML**
 
+- html files pass through the W3C validator with no issues found.
+
 **CSS**
+
+- css files pass through the Jigsaw validator with no issues found.
 
 **JAVASCRIPT**
 
+- jshint file pass through the Jshint validator with no issues found.
+
 **Accessibility**
 
+- The website went through lighthouse without any bigger problems. I have a little issues about the size of the images.
+
+## Bugs
+
+
+
 ## Technologies Used
+
 **Frameworks, Libraries & Programs Used**
 
 ## Deployment
