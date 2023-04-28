@@ -25,13 +25,11 @@ window.onload = function() {
 function selectChoice() {
         user = this.id;
         document.getElementById('user-choice').src = 'assets/images/' + user + '.png';
-        console.log(document.getElementById('user-choice').src);
    
 // Random for the computer
 
         computer = choices[Math.floor(Math.random() * 5)]; 
-        document.getElementById('computer-choice').src = 'assets/images/' + computer + '.png';
-        console.log(document.getElementById('computer-choice').src);
+        document.getElementById('computer-choice').src = 'assets/images/' + computer + '.png';  
 
 // check who wins
 
