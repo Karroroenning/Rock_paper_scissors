@@ -39,6 +39,7 @@ Here we have the core of the web page. The first thing to look at is the game bo
 **Header:**
 
 The header text is the name of the game. On this page, this text should not be the first thing the user looks at. It should still be the game board. It is discreet and the size is smaller. But when you press it, you get to the first page again.
+![gamepage header](/assets/images/images%20readme/gamepage_header.jpg)
 
 **Restart game:**
 
@@ -53,11 +54,15 @@ On the game board we have the game itself. The computer's side on what it choose
 - I chose to make the playing field a little bigger so that the focus remains on the playing field.
 I have taken the images from google, but I have redone them in photoshop so that it is more consistent with the game.
 
+![the gameboard](/assets/images/images%20readme/gameboard.jpg)
+
 **Result:**
 
 I find this quite interesting. When the game is started and someone wins or loses, it says if you win or lose but also for those who haven't played this before, there will always be a short explanation of what the options do to each other to win.
 
 - I think the experience is better when you get an explanation of why you win or lose. So you never feel that it is unfair. This game must be fair. A small detail that provides a very funny piece of information
+
+![result line](/assets/images/images%20readme/gameboard_result.jpg)
 
 **User choices:**
 
@@ -65,7 +70,9 @@ Five game options that the user can choose from before each game round. But when
 
 - I chose to have five options to make it more exciting. Many have played rock paper scissors, but here two options have been added. The images have the same colors and could then be mixed together. That's why I've put a different color around so that you can tell them apart. I have the neon color to once again get the feeling of an arcade.
 
-## Validator testin
+![user choices](/assets/images/images%20readme/gameboard_choices.jpg)
+
+## Validator testing
 
 - Chrome developer tools was used to find any issues while building the webpage.
 
