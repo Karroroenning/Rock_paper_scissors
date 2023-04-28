@@ -28,7 +28,8 @@ When you hover over the "start game" sign, there is a very subtle zoom that show
 
 ![start game sign](/assets/images/images%20readme/startgame.jpg)
 
-Hover:
+**Hover:**
+
 ![start game sign hover](/assets/images/images%20readme/startgame_hover.jpg)
 
 ## Game page
@@ -59,6 +60,10 @@ I find this quite interesting. When the game is started and someone wins or lose
 - I think the experience is better when you get an explanation of why you win or lose. So you never feel that it is unfair. This game must be fair. A small detail that provides a very funny piece of information
 
 **User choices:**
+
+Five game options that the user can choose from before each game round. But when you push, there is no going back. When you press an option, the game starts.
+
+- I chose to have five options to make it more exciting. Many have played rock paper scissors, but here two options have been added. The images have the same colors and could then be mixed together. That's why I've put a different color around so that you can tell them apart. I have the neon color to once again get the feeling of an arcade.
 
 ## Testing
 
