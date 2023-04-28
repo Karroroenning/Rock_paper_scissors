@@ -106,12 +106,43 @@ Five game options that the user can choose from before each game round. But when
 
 **Frameworks, Libraries & Programs Used**
 
+- Google Fonts - for the font families: Allerta Stencil, Poiret One, Stick No Bills.
+- Font Awesome - to add icons to the social links in the footer element and the icon in the header.
+- GitPod - to creat my html files & styling sheet before pushing the project to Github.
+- GitHub - to store my repository for submission.
+- Am I Responsive? - to ensure the project looked good across all devices.
+
 ## Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+- In the GitHub repository, navigate to the Settings tab
+- -From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- The live link can be found HERE - Summer Project
 
 ## Credits
 
+- Inspiration and code came from two diffrent tutorials on YouTube.
+
+- [3 ways to code Rock Paper Scissors in JavaScript (Beginner to Intermediate to Advanced!)](https://www.youtube.com/watch?v=RwFeg0cEZvQ)
+
+- [Rock Paper Scissors In JavaScript HTML CSS](https://www.youtube.com/watch?v=fIBOydve2f8)
+
+- The hover buttons i got the css code from [The Best CSS Button Hover Effects You Can Use Too](https://www.sliderrevolution.com/resources/css-button-hover-effects/)
+
+- When I created the neon effect, I also searched on Google. Where I got help with that code from [Creating Glow Effects with CSS](https://codersblock.com/blog/creating-glow-effects-with-css/)
+
+- When I created the neon sign, I found a great page that showed how to do it. I've reworked it a bit but mostly it's copied [css animated neon sign](https://codepen.io/nodws/pen/WNjXbr)
+
+- The readme template came from my pp1 readme.
+
 **Content**
 
+- When I got stuck and wanted help with some codes, I searched on Mozilla's site. Find many good aids there.
+
+- I got stuck with a code where my body element was not responsive to mobile devices. So I ask on slack first, but no one could help me there. Then I contacted Tutor support. There I got help right away and the problem was solved.
 
 **Media**
 
+- The background image is from pexels and also the images in gallery are from pexels. My search term was music festival.
