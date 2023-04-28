@@ -76,21 +76,31 @@ Five game options that the user can choose from before each game round. But when
 
 - Chrome developer tools was used to find any issues while building the webpage.
 
+
+
 **HTML**
 
 - html files pass through the W3C validator with no issues found.
+
+![html validator](/assets/images/images%20readme/html_validator.png)
 
 **CSS**
 
 - css files pass through the Jigsaw validator with no issues found.
 
+![css validator](/assets/images/images%20readme/css_validator.png)
+
 **JAVASCRIPT**
 
 - jshint file pass through the Jshint validator with no issues found.
 
+![Javascript validator](/assets/images/images%20readme/jshint.png)
+
 **Accessibility**
 
-- The website went through lighthouse without any bigger problems. I have a little issues about the size of the images.
+- The website went through lighthouse without any bigger problems. I had a little issues about the size of the images on my laptop, but on my computer i got 100.
+
+![Lighthouse image](/assets/images/images%20readme/Untitled.png)
 
 ## Bugs
 
