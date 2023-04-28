@@ -106,9 +106,8 @@ Five game options that the user can choose from before each game round. But when
 
 **Frameworks, Libraries & Programs Used**
 
-- Google Fonts - for the font families: Allerta Stencil, Poiret One, Stick No Bills.
-- Font Awesome - to add icons to the social links in the footer element and the icon in the header.
-- GitPod - to creat my html files & styling sheet before pushing the project to Github.
+- Google Fonts - for the font "Bruno Ace", "Robot".
+- GitPod - to creat my html files, styling sheet and script before pushing the project to Github.
 - GitHub - to store my repository for submission.
 - Am I Responsive? - to ensure the project looked good across all devices.
 
@@ -117,9 +116,9 @@ Five game options that the user can choose from before each game round. But when
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 - In the GitHub repository, navigate to the Settings tab
-- -From the source section drop-down menu, select the Master Branch
+- From the source section drop-down menu, select the Master Branch
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-- The live link can be found HERE - Summer Project
+- The live link can be found HERE - [Rock, Paper, Scissors, Lizard, Spock](https://karroroenning.github.io/Rock_paper_scissors/index.html)
 
 ## Credits
 
@@ -137,12 +136,6 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 - The readme template came from my pp1 readme.
 
-**Content**
-
-- When I got stuck and wanted help with some codes, I searched on Mozilla's site. Find many good aids there.
-
-- I got stuck with a code where my body element was not responsive to mobile devices. So I ask on slack first, but no one could help me there. Then I contacted Tutor support. There I got help right away and the problem was solved.
-
 **Media**
 
-- The background image is from pexels and also the images in gallery are from pexels. My search term was music festival.
+- The background image is from [Stockvault](https://www.stockvault.net/free-photos/brain/). My search term was brain.
