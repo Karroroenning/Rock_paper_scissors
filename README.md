@@ -94,7 +94,13 @@ Five game options that the user can choose from before each game round. But when
 
 ## Bugs
 
+- I was reminded by the lighthouse in devtools that I forgot the "alt" alternative in the pictures. So I had to google how to get the "alt" option in javascript. Because it was something I hadn't done before. I read a lot, but no code that I found worked. So I had to think logically and try to solve it myself. And it worked out.
 
+![screenshot of the alt in javascript](/assets/images/images%20readme/alt_readme.jpg)
+
+- I had put all the pictures outside of a folder because I didn't know how to get the pictures in from a folder. When I spoke to my mentor (Martina) she said it would not be approved. So she sent me three similar projects so I could compare and see how they did with their images. I managed to do a little but I had help from tutor support for the final touch. I had forgotten the console.log.
+
+![image of how i got helped in javascript](/assets/images/images%20readme/images_folder.jpg)
 
 ## Technologies Used
 
